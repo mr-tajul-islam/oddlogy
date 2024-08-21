@@ -39,14 +39,12 @@
 /* #hadoc(hadocHeader) #css ends */
 
 /* #banru(banruBanner) #css starts  */
-.banruBanner{
-
-}
 .banruBanner .parallax { 
     background-image: url("../img/others/banner.jpg");
     height: 200px; 
+    width: 100%;
     background-repeat: round;
-    background-size: contain;
+    background-size: cover;
   }
 .banruBanner .fa-x{
     font-size: 20px;
@@ -58,6 +56,13 @@
     background: transparent;
     border: none;
 }
+/* Media query for small screens (mobile devices) */
+@media (max-width: 768px) {
+    .banruBanner .parallax {
+        height: 60px; 
+    }
+}
+
 /* #banru(banruBanner) #css ends  */
 
 /* #aru(aruAbout) #css starts  */
