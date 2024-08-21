@@ -38,3 +38,63 @@
 }
 /* #hadoc(hadocHeader) #css ends */
 
+/* #banru(banruBanner) #css starts  */
+.banruBanner{
+
+}
+.banruBanner .parallax { 
+    background-image: url("../img/others/banner.jpg");
+    height: 200px; 
+    background-repeat: round;
+    background-size: contain;
+  }
+.banruBanner .fa-x{
+    font-size: 20px;
+    margin-right: 20px;
+    color: #fff;
+    margin-top: 10px;
+}
+.banruBanner button{
+    background: transparent;
+    border: none;
+}
+/* #banru(banruBanner) #css ends  */
+
+/* #aru(aruAbout) #css starts  */
+.aruAbout h2 {
+    font-size: 28px
+}
+.aruAbout p {
+    margin: 0 0 20px
+}
+.aruAbout .page-banner {
+    background: url(../img/others/online-learning.jpeg);
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    padding: 100px;
+    background-repeat: no-repeat;
+}
+.aruAbout .page-banner-spacing {
+    padding-top: 170px;
+    padding-bottom: 174px
+}
+.aruAbout .card-section {
+    position: relative;
+    bottom: 60px
+}
+.aruAbout .card-block {
+    padding: 60px;
+    background: #fff;
+}
+.aruAbout .section-title {
+    margin-bottom: 60px
+}
+.aruAbout .btn{
+    background-color: #E75F27;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+}
+/* #aru(aruAbout) #css ends  */
