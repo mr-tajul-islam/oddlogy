@@ -1,0 +1,40 @@
+/* #hadoc(hadocHeader) #css starts */
+.hadocHeader .logo {
+    max-height: 40px
+}
+.hadocHeader .navbar-open-icon {
+    display: inline
+}
+.hadocHeader .navbar-close-icon {
+    display: none
+}
+.hadocHeader .navbar-toggler[aria-expanded="true"] .navbar-open-icon {
+    display: none
+}
+.hadocHeader .navbar-toggler[aria-expanded="true"] .navbar-close-icon {
+    display: inline
+}
+.hadocHeader .navbar-light .navbar-nav .nav-link{
+    color: #252422;
+}
+.hadocHeader .navbar-light .navbar-nav .nav-link:hover{
+    color: #3E3A37;
+}
+.hadocHeader .navbar-light .navbar-toggler {
+    color: #252422;
+    border-color: #252422;
+    font-size: 20px;
+}
+.hadocHeader .btn {
+    background-color: #E75F27;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: 5px 20px 5px 20px;
+}
+.hadocHeader .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+/* #hadoc(hadocHeader) #css ends */
+
