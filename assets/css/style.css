@@ -65,3 +65,33 @@
 
 /* #banru(banruBanner) #css ends  */
 
+ /* #sagnu(sagnuFeature) #css starts  */
+ .sagnuFeature .card-img-top {
+    max-width: 100px;
+    margin-left: 20px;
+    margin-top: 20px
+}
+ .sagnuFeature .card-heading,
+ .sagnuFeature .card-heading:hover{
+    box-shadow:none !important
+}
+.sagnuFeature .card-title {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+.sagnuFeature h2 {
+    font-size: 45px;
+}
+.sagnuFeature .stroke {
+    color: #E75F27;
+    font-style: italic;
+}
+.sagnuFeature .cardbody{
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.sagnuFeature .cardbody:hover{
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+/* #sagnu(sagnuFeature) #css ends  */
+
+
