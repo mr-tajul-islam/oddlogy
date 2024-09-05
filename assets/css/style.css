@@ -95,4 +95,39 @@
 }
 /* #sagnu(sagnuFeature) #css ends  */
 
+/* #faye(fayeFeature) #css starts */
+.fayeFeature .fdb-block {
+    padding: 5rem 0
+}
 
+.fayeFeature .fdb-block .fdb-box {
+    background: #FFFFFF;
+    padding: 2rem 2.5rem;
+    overflow: hidden;
+    color: #444444;
+    border-radius: 0.25rem;
+    box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2)
+}
+
+.fayeFeature .fdb-block .fdb-touch {
+    border-top: solid 0.3125rem #329ef7;
+    z-index: 2
+}
+
+/* #faye(fayeFeature) #css starts */
+
+    /* #feresa(feresaFeature) #css starts */
+    .feresaFeature .fdb-block {
+        padding: 5rem 0
+    }
+
+    .feresaFeature .fdb-block img.fdb-icon {
+        width: auto;
+        width: 3.75rem
+    }
+    .feresaFeature h3,
+    .feresaFeature p{
+        color: #252422;
+    }
+
+    /* #feresa(feresaFeature) #css starts */
