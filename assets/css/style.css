@@ -59,7 +59,7 @@
 /* Media query for small screens (mobile devices) */
 @media (max-width: 768px) {
     .banruBanner .parallax {
-        height: 60px; 
+        height: 100px; 
     }
 }
 
