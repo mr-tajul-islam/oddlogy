@@ -568,6 +568,59 @@
 
 /* #cjaime(cjaimeCTA) #css ends  */
 
+/* #cander(canderCounters) #css starts  */
+
+.canderCounters .counter-section i {
+    display: block;
+    margin: 0 0 10px
+}
+
+.canderCounters .counter-section span.counter {
+    font-size: 40px;
+    color: #000;
+    line-height: 60px;
+    display: block;
+    letter-spacing: 2px
+}
+
+.canderCounters .counter-title {
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.canderCounters .counter-icon {
+    top: 25px;
+    position: relative
+}
+
+.canderCounters .counter-style2 .counter-title {
+    letter-spacing: 0.55px;
+    float: left;
+}
+
+.canderCounters .counter-style2 span.counter {
+    letter-spacing: 0.55px;
+    float: left;
+    margin-right: 10px;
+}
+
+.canderCounters .counter-style2 i {
+    float: right;
+    line-height: 26px;
+    margin: 0 10px 0 0
+}
+
+.canderCounters .counter-subheadline span {
+    float: right;
+}
+
+.canderCounters .medium-icon {
+    font-size: 40px !important;
+    margin-bottom: 15px !important;
+}
+
+/* #cander(canderCounters) #css ends  */
+
 
 /* footer starts here */
 
