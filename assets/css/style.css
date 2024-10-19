@@ -621,284 +621,255 @@
 
 /* #cander(canderCounters) #css ends  */
 
+/* #funnu(funnuFooter) #css starts */
+.funnuFooter {
+    overflow: hidden;
+}
+.funnuFooter .logo{
+    max-height: 80px;
+}
 
-/* footer starts here */
+.funnuFooter .round-btn {
+    display: inline;
+    height: 40px;
+    width: 40px;
+    background: #fff;
+    border-radius: 50%;
+    float: left;
+    margin: 15px 8px;
+    box-shadow: 2px 2px 5px 0px rgb(82, 0, 67);
+    border: 1px solid
+}
 
-.faltuFooter a {
+.funnuFooter .round-btn a {
+    display: block;
+    padding: 7px 12px;
+    font-size: 18px;
+    border-radius: 50%
+}
+
+.funnuFooter .round-btn .icon {
+    padding: 3px
+}
+
+.funnuFooter .round-btn .icon img {
+    height: 24px;
+    width: 32px;
+    margin-top: 6px
+}
+
+.funnuFooter .btn-facebook a {
+    color: #3b5998;
+    padding: 8px 13px
+}
+
+.funnuFooter .btn-linkedin a {
+    color: #007bb6;
+    padding: 6px 10px
+}
+
+.funnuFooter .btn-youtube a {
+    color: #df2828;
+    padding: 6px 10px
+}
+
+.funnuFooter .btn-whatsapp a {
+    color: #155E54;
+    padding: 6px 12px
+}
+
+.funnuFooter .standard_header .standard_social_links {
+    margin-left: 1rem
+}
+
+
+.funnuFooter .footer-wrap {
+    padding-top: 43px;
+    background-size: cover
+}
+
+.funnuFooter .footer-wrap h3 {
     color: #fff;
+    font-size: 17px;
+    margin-bottom: 25px
+}
+
+.funnuFooter .footer-wrap p {
+    font-size: 13px;
+    line-height: 24px;
+    color: #b3b3b3;
+    margin-top: 15px
+}
+
+.funnuFooter .footer-wrap p a {
+    color: #fff;
+    text-decoration: underline;
+    font-style: italic
+}
+
+.funnuFooter .footer-wrap p a:hover {
     text-decoration: none;
-  }
-  .faltuFooter .pg-footer {
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  
-  .faltuFooter .footer {
-      background-color: #DDD6D6;
-  }
-  .faltuFooter .footer-wave-svg {
-      background-color: transparent;
-      display: block;
-      height: 30px;
-      position: relative;
-      top: -1px;
-      width: 100%;
-  }
-  .faltuFooter .footer-wave-path {
-      fill: #fffff2;
-  }
-  
-  .faltuFooter .footer-content {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1230px;
-      padding: 40px 15px 450px;
-      position: relative;
-  }
-  
-  .faltuFooter .footer-content-column {
-      box-sizing: border-box;
-      float: left;
-      padding-left: 15px;
-      padding-right: 15px;
-      width: 100%;
-      color: #000000;
-  }
-  
-  .faltuFooter .footer-content-column ul li a {
-    color: #000000;
+    color: #ff7800
+}
+
+.funnuFooter .footer-links li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #ccc;
+    text-decoration: none
+}
+
+.funnuFooter .footer-links li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    color: #ccc
+}
+
+.funnuFooter .footer-category li a {
+    font-size: 13px;
+    line-height: 30px;
+    color: #ccc;
     text-decoration: none;
-  }
-  
-  .faltuFooter .footer-logo-link {
-      display: inline-block;
-  }
-  .faltuFooter .footer-menu {
-      margin-top: 30px;
-  }
-  
-  .faltuFooter .footer-menu-name {
-      color: #000000;
-      font-size: 15px;
-      font-weight: 900;
-      letter-spacing: .1em;
-      line-height: 18px;
-      margin-bottom: 0;
-      margin-top: 0;
-      text-transform: uppercase;
-  }
-  .faltuFooter .footer-menu-list {
-      list-style: none;
-      margin-bottom: 0;
-      margin-top: 10px;
-      padding-left: 0;
-  }
-  .faltuFooter .footer-menu-list li {
-      margin-top: 5px;
-  }
-  
-  .faltuFooter .footer-call-to-action-description {
-      color: #000000;
-      margin-top: 10px;
-      margin-bottom: 20px;
-  }
-  .faltuFooter .footer-call-to-action-button:hover {
-      background-color: #000000;
-      color: #ffffff;
-      text-decoration: none;
-  }
-  .faltuFooter .button:last-of-type {
-      margin-right: 0;
-  }
-  .faltuFooter .footer-call-to-action-button {
-      background-color: #ffffff;
-      border-radius: 21px;
-      color: #000000;
-      display: inline-block;
-      font-size: 11px;
-      font-weight: 900;
-      letter-spacing: .1em;
-      line-height: 18px;
-      padding: 12px 30px;
-      margin: 0 10px 10px 0;
-      text-decoration: none;
-      text-transform: uppercase;
-      transition: background-color .2s;
-      cursor: pointer;
-      position: relative;
-  }
-  .faltuFooter .footer-call-to-action {
-      margin-top: 30px;
-  }
-  .faltuFooter .footer-call-to-action-title {
-      color: #000000;
-      font-size: 14px;
-      font-weight: 900;
-      letter-spacing: .1em;
-      line-height: 18px;
-      margin-bottom: 0;
-      margin-top: 0;
-      text-transform: uppercase;
-  }
-  .faltuFooter .footer-call-to-action-link-wrapper {
-      margin-bottom: 0;
-      margin-top: 10px;
-      color: #fff;
-      text-decoration: none;
-  }
-  .faltuFooter .footer-call-to-action-link-wrapper a {
-      color: #fff;
-      text-decoration: none;
-  }
-  
-  .faltuFooter .footer-social-links {
-      bottom: 0;
-      height: 54px;
-      position: absolute;
-      right: 0;
-      width: 236px;
-  }
-  
-  .faltuFooter .footer-social-amoeba-svg {
-      height: 54px;
-      left: 0;
-      display: block;
-      position: absolute;
-      top: 0;
-      width: 236px;
-  }
-  
-  .faltuFooter .footer-social-amoeba-path {
-      fill: #000000;
-  }
-  
-  .faltuFooter .footer-social-link.linkedin {
-      height: 26px;
-      left: 3px;
-      top: 11px;
-      width: 45px;
-  }
-  
-  .faltuFooter .footer-social-link {
-      display: block;
-      padding: 10px;
-      position: absolute;
-  }
-  
-  .faltuFooter .hidden-link-text {
-      position: absolute;
-      clip: rect(1px 1px 1px 1px);
-      clip: rect(1px,1px,1px,1px);
-      -webkit-clip-path: inset(0px 0px 99.9% 99.9%);
-      clip-path: inset(0px 0px 99.9% 99.9%);
-      overflow: hidden;
-      height: 1px;
-      width: 1px;
-      padding: 0;
-      border: 0;
-      top: 50%;
-  }
-  
-  .faltuFooter .footer-social-icon-svg {
-      display: block;
-  }
-  
-  .faltuFooter .footer-social-icon-path {
-      fill: #fffff2;
-      transition: fill .2s;
-  }
-  
-  .faltuFooter .footer-social-link.twitter {
-      height: 28px;
-      left: 62px;
-      top: 3px;
-      width: 45px;
-  }
-  
-  .faltuFooter .footer-social-link.youtube {
-      height: 24px;
-      left: 123px;
-      top: 12px;
-      width: 45px;
-  }
-  
-  .faltuFooter .footer-social-link.github {
-      height: 34px;
-      left: 172px;
-      top: 7px;
-      width: 50px;
-  }
-  
-  .faltuFooter .footer-copyright {
-      background-color: #000000;
-      color: #fff;
-      padding: 15px 30px;
+}
+
+.funnuFooter .footer-category li:before {
+    content: "\f105";
+    font-family: 'FontAwesome';
+    padding-right: 10px;
+    color: #b3b3b3
+}
+
+.funnuFooter .address {
+    color: #b3b3b3;
+    font-size: 14px;
+    position: relative;
+    padding-left: 30px;
+    line-height: 30px
+}
+
+.funnuFooter .address:before {
+    content: "\f277";
+    font-family: 'FontAwesome';
+    position: absolute;
+    top: 0;
+    left: 0
+}
+
+.funnuFooter .info a {
+
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal
+}
+
+.funnuFooter .fa-phone:before {
+    content: "\f095"
+}
+
+.funnuFooter .info a {
+    color: #b3b3b3;
+    font-size: 14px;
+    line-height: 30px;
+    font-weight: normal
+}
+
+.funnuFooter .fa-fax:before {
+    content: "\f1ac"
+}
+
+.funnuFooter .copyright {
+    border-top: 1px solid #111;
+    font-size: 14px;
+    color: #ccc;
+    padding-top: 15px;
     text-align: center;
-  }
-  
-  .faltuFooter .footer-copyright-wrapper {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1200px;
-  }
-  
-  .faltuFooter .footer-copyright-text {
-    color: #fff;
-      font-size: 13px;
-      font-weight: 400;
-      line-height: 18px;
-      margin-bottom: 0;
-      margin-top: 0;
-  }
-  
-  .faltuFooter .footer-copyright-link {
-      color: #fff;
-      text-decoration: none;
-  }
-  
-  /* Media Query For different screens */
-  @media (min-width:320px) and (max-width:479px)  { 
-    .faltuFooter .footer-content {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1230px;
-      padding: 40px 15px 1050px;
-      position: relative;
+    padding-bottom: 15px;
+    background: #222
+}
+
+.funnuFooter footer .second_class {
+    border-bottom: 1px solid #444;
+    padding-bottom: 25px
+}
+
+.funnuFooter footer .first_class {
+    padding-bottom: 21px;
+    border-bottom: 1px solid #444
+}
+
+.funnuFooter footer .funnuFooter .first_class p,
+footer .first_class h3 {
+    margin: 0 0
+}
+
+.funnuFooter footer {
+    background: #333
+}
+
+.funnuFooter footer .newsletter input[type="text"] {
+    width: 100%;
+    background: #fff;
+    color: #333;
+    border: 1px solid #222;
+    padding: 14px 20px;
+    border-radius: 50px;
+    margin-top: 12px;
+    outline: none;
+}
+
+.funnuFooter .newsletter .newsletter_submit_btn {
+    background: #fff;
+    position: absolute;
+    right: 30px;
+    border: 0;
+    top: 26px;
+    font-size: 17px;
+    color: #333
+}
+
+.funnuFooter footer .second_class_bdr {
+    padding-top: 25px;
+    border-top: 1px solid #222
+}
+
+.funnuFooter footer .btn-facebook a {
+    padding: 6px 14px
+}
+
+.funnuFooter footer .round-btn {
+    box-shadow: 2px 2px 5px 0px #222
+}
+
+.funnuFooter footer .round-btn {
+    margin: 15px 4px
+}
+
+.funnuFooter footer dl,
+.funnuFooter ol,
+.funnuFooter ul {
+    padding-left: 5px
+}
+
+.funnuFooter footer li {
+    list-style: none
+}
+
+@media(max-width:768px) {
+    .funnuFooter .footer-wrap h3 {
+        margin-top: 27px
     }
-  }
-  @media (min-width:480px) and (max-width:599px)  {
-    .faltuFooter .footer-content {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1230px;
-      padding: 40px 15px 1050px;
-      position: relative;
+
+    .funnuFooter footer .round-btn {
+        margin: 15px 4px
     }
-  }
-  @media (min-width:600px) and (max-width: 800px)  {
-    .faltuFooter .footer-content {
-      margin-left: auto;
-      margin-right: auto;
-      max-width: 1230px;
-      padding: 40px 15px 1050px;
-      position: relative;
+}
+
+@media(max-width:320px) {
+    .funnuFooter .copyright {
+        font-size: 13px
     }
-  }
- 
-  @media (min-width: 760px) {
-    .faltuFooter .footer-content {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1230px;
-        padding: 40px 15px 450px;
-        position: relative;
-    }
-  
-    .faltuFooter .footer-wave-svg {
-        height: 50px;
-    }
-  
-    .faltuFooter .footer-content-column {
-        width: 24.99%;
-    }
-  }
+}
+
+/* #funnu(funnuFooter) #css ends */
