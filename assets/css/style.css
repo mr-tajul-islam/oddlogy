@@ -46,9 +46,10 @@ body{
     padding: 5px 20px 5px 20px;
 }
 
-.hadocHeader .btn:hover {
+.hadocHeader .btn:hover{
     color: #fff;
     text-decoration: none;
+    background-color: #E75F27;
 }
 
 /* #hadoc(hadocHeader) #css ends */
@@ -84,6 +85,9 @@ body{
 /* #banru(banruBanner) #css ends  */
 
 /* #sagnu(sagnuFeature) #css starts  */
+.sagnuFeature{
+    padding: 5rem;
+}
 .sagnuFeature .card-img-top {
     max-width: 100px;
     margin-left: 20px;
@@ -120,30 +124,152 @@ body{
 
 /* #sagnu(sagnuFeature) #css ends  */
 
-/* #faye(fayeFeature) #css starts */
-.fayeFeature .fdb-block {
-    padding: 5rem 0
+
+/* #pung(pungProductone) #css starts  */
+.pungProductone{
+    padding: 5rem;
+}
+.pungProductone h2{
+    font-size: 35px;
+}
+.pungProductone .product-grid {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 22px;
 }
 
-.fayeFeature .fdb-block .fdb-box {
-    background: #FFFFFF;
-    padding: 2rem 2.5rem;
+.pungProductone .product-grid .product-image {
+    padding: 10px;
+    border-radius: 20px;
     overflow: hidden;
-    color: #444444;
-    border-radius: 0.25rem;
-    box-shadow: 0 0.3125rem 0.875rem 0 rgba(129, 129, 129, 0.2)
+    position: relative;
 }
 
-.fayeFeature .fdb-block .fdb-touch {
-    border-top: solid 0.3125rem #329ef7;
-    z-index: 2
+.pungProductone .product-grid .product-image a.image {
+    display: block;
 }
 
-/* #faye(fayeFeature) #css starts */
+.pungProductone .product-grid .product-image a.image:before {
+    content: '';
+    background-color: #e52d53;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    opacity: .1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all ease .35s;
+}
+
+.pungProductone .product-grid:hover .product-image a.image:before {
+    opacity: 0.4;
+    height: 100%;
+}
+
+.pungProductone .product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(.85);
+    transition: all 0.5s ease 0s;
+}
+
+.pungProductone .product-grid:hover .product-image img {
+    transform: scale(1);
+}
+
+.pungProductone .product-grid .product-like-icon {
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductone .product-grid:hover .product-like-icon {
+    color: red;
+    top: 20px;
+    right: 20px;
+    transition-delay: 0.2s;
+}
+
+.pungProductone .product-grid .product-like-icon:hover {
+    color: #1b33a1;
+}
+
+.pungProductone .product-grid .product-content {
+    padding: 20px 10px;
+    position: relative;
+}
+
+.pungProductone .product-grid .rating {
+    color: #999;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 0 7px;
+    list-style: none;
+}
+
+.pungProductone .product-grid .rating li.fas {
+    color: #e52d53;
+}
+
+.pungProductone .product-grid .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+
+.pungProductone .product-grid .title a {
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductone .product-grid .title a:hover {
+    color: #e52d53;
+}
+
+.pungProductone .product-grid .price {
+    color: #e52d53;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.pungProductone .product-grid .add-to-cart {
+    color: #fff;
+    background: #353535;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductone .product-grid .add-to-cart:hover {
+    color: #fff;
+}
+@media screen and (max-width: 990px) {
+    .pungProductone .product-grid {
+        margin: 0 0 30px;
+    }
+}
+/* #pung(pungProductone) #css ends  */
 
 /* #feresa(feresaFeature) #css starts */
-.feresaFeature .fdb-block {
-    padding: 5rem 0
+.feresaFeature {
+    padding: 5rem;
 }
 
 .feresaFeature .fdb-block img.fdb-icon {
@@ -160,7 +286,294 @@ body{
 }
 /* #feresa(feresaFeature) #css starts */
 
+/* #pung(pungProducttwo) #css starts  */
+.pungProducttwo{
+    padding: 5rem;
+}
+.pungProducttwo h2{
+    font-size: 35px;
+}
+.pungProducttwo .product-grid {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 22px;
+}
+
+.pungProducttwo .product-grid .product-image {
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pungProducttwo .product-grid .product-image a.image {
+    display: block;
+}
+
+.pungProducttwo .product-grid .product-image a.image:before {
+    content: '';
+    background-color: #e52d53;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    opacity: .1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all ease .35s;
+}
+
+.pungProducttwo .product-grid:hover .product-image a.image:before {
+    opacity: 0.4;
+    height: 100%;
+}
+
+.pungProducttwo .product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(.85);
+    transition: all 0.5s ease 0s;
+}
+
+.pungProducttwo .product-grid:hover .product-image img {
+    transform: scale(1);
+}
+
+.pungProducttwo .product-grid .product-like-icon {
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProducttwo .product-grid:hover .product-like-icon {
+    color: red;
+    top: 20px;
+    right: 20px;
+    transition-delay: 0.2s;
+}
+
+.pungProducttwo .product-grid .product-like-icon:hover {
+    color: #1b33a1;
+}
+
+.pungProducttwo .product-grid .product-content {
+    padding: 20px 10px;
+    position: relative;
+}
+
+.pungProducttwo .product-grid .rating {
+    color: #999;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 0 7px;
+    list-style: none;
+}
+
+.pungProducttwo .product-grid .rating li.fas {
+    color: #e52d53;
+}
+
+.pungProducttwo .product-grid .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+
+.pungProducttwo .product-grid .title a {
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProducttwo .product-grid .title a:hover {
+    color: #e52d53;
+}
+
+.pungProducttwo .product-grid .price {
+    color: #e52d53;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.pungProducttwo .product-grid .add-to-cart {
+    color: #fff;
+    background: #353535;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProducttwo .product-grid .add-to-cart:hover {
+    color: #fff;
+}
+@media screen and (max-width: 990px) {
+    .pungProducttwo .product-grid {
+        margin: 0 0 30px;
+    }
+}
+/* #pung(pungProducttwo) #css ends  */
+
+/* #pung(pungProductthree) #css starts  */
+.pungProductthree{
+    padding: 5rem;
+}
+.pungProductthree h2{
+    font-size: 35px;
+}
+.pungProductthree .product-grid {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 22px;
+}
+
+.pungProductthree .product-grid .product-image {
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pungProductthree .product-grid .product-image a.image {
+    display: block;
+}
+
+.pungProductthree .product-grid .product-image a.image:before {
+    content: '';
+    background-color: #e52d53;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    opacity: .1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all ease .35s;
+}
+
+.pungProductthree .product-grid:hover .product-image a.image:before {
+    opacity: 0.4;
+    height: 100%;
+}
+
+.pungProductthree .product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(.85);
+    transition: all 0.5s ease 0s;
+}
+
+.pungProductthree .product-grid:hover .product-image img {
+    transform: scale(1);
+}
+
+.pungProductthree .product-grid .product-like-icon {
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductthree .product-grid:hover .product-like-icon {
+    color: red;
+    top: 20px;
+    right: 20px;
+    transition-delay: 0.2s;
+}
+
+.pungProductthree .product-grid .product-like-icon:hover {
+    color: #1b33a1;
+}
+
+.pungProductthree .product-grid .product-content {
+    padding: 20px 10px;
+    position: relative;
+}
+
+.pungProductthree .product-grid .rating {
+    color: #999;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 0 7px;
+    list-style: none;
+}
+
+.pungProductthree .product-grid .rating li.fas {
+    color: #e52d53;
+}
+
+.pungProductthree .product-grid .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+
+.pungProductthree .product-grid .title a {
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductthree .product-grid .title a:hover {
+    color: #e52d53;
+}
+
+.pungProductthree .product-grid .price {
+    color: #e52d53;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.pungProductthree .product-grid .add-to-cart {
+    color: #fff;
+    background: #353535;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductthree .product-grid .add-to-cart:hover {
+    color: #fff;
+}
+@media screen and (max-width: 990px) {
+    .pungProductthree .product-grid {
+        margin: 0 0 30px;
+    }
+}
+/* #pung(pungProductthree) #css ends  */
+
 /* #tiklu(tikluTestimonial) #css starts  */
+.tikluTestimonial{
+    padding: 5rem;
+}
 .tikluTestimonial #testimonial-area .section-heading h2 {
     font-size: 48px;
     line-height: 58px;
@@ -560,9 +973,151 @@ body{
 
 /* #tiklu(tikluTestimonial) #css ends  */
 
+/* #pung(pungProductfour) #css starts  */
+.pungProductfour{
+    padding-bottom: 5rem;
+}
+.pungProductfour h2{
+    font-size: 35px;
+}
+.pungProductfour .product-grid {
+    background: #fff;
+    border: 1px solid #e5e5e5;
+    border-radius: 22px;
+}
+
+.pungProductfour .product-grid .product-image {
+    padding: 10px;
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+}
+
+.pungProductfour .product-grid .product-image a.image {
+    display: block;
+}
+
+.pungProductfour .product-grid .product-image a.image:before {
+    content: '';
+    background-color: #e52d53;
+    width: 100%;
+    height: 50%;
+    border-radius: 20px;
+    opacity: .1;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: all ease .35s;
+}
+
+.pungProductfour .product-grid:hover .product-image a.image:before {
+    opacity: 0.4;
+    height: 100%;
+}
+
+.pungProductfour .product-grid .product-image img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transform: scale(.85);
+    transition: all 0.5s ease 0s;
+}
+
+.pungProductfour .product-grid:hover .product-image img {
+    transform: scale(1);
+}
+
+.pungProductfour .product-grid .product-like-icon {
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 18px;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 1;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductfour .product-grid:hover .product-like-icon {
+    color: red;
+    top: 20px;
+    right: 20px;
+    transition-delay: 0.2s;
+}
+
+.pungProductfour .product-grid .product-like-icon:hover {
+    color: #1b33a1;
+}
+
+.pungProductfour .product-grid .product-content {
+    padding: 20px 10px;
+    position: relative;
+}
+
+.pungProductfour .product-grid .rating {
+    color: #999;
+    font-size: 12px;
+    padding: 0;
+    margin: 0 0 7px;
+    list-style: none;
+}
+
+.pungProductfour .product-grid .rating li.fas {
+    color: #e52d53;
+}
+
+.pungProductfour .product-grid .title {
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    margin: 0 0 12px;
+}
+
+.pungProductfour .product-grid .title a {
+    color: #000;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductfour .product-grid .title a:hover {
+    color: #e52d53;
+}
+
+.pungProductfour .product-grid .price {
+    color: #e52d53;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.pungProductfour .product-grid .add-to-cart {
+    color: #fff;
+    background: #353535;
+    font-size: 14px;
+    text-align: center;
+    line-height: 40px;
+    width: 40px;
+    height: 40px;
+    border-radius: 16px;
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    transition: all 0.3s ease 0s;
+}
+
+.pungProductfour .product-grid .add-to-cart:hover {
+    color: #fff;
+}
+@media screen and (max-width: 990px) {
+    .pungProductfour .product-grid {
+        margin: 0 0 30px;
+    }
+}
+/* #pung(pungProductfour) #css ends  */
+
 /* #cjaime(cjaimeCTA) #css starts  */
-.cjaimeCTA .fdb-block {
-    padding: 7.5rem 0
+.cjaimeCTA  {
+    padding: 5rem
 }
 
 .cjaimeCTA .btn {
@@ -576,10 +1131,13 @@ body{
 /* #cjaime(cjaimeCTA) #css ends  */
 
 /* #cander(canderCounters) #css starts  */
-
+.canderCounters{
+    padding: 5rem;
+}
 .canderCounters .counter-section i {
     display: block;
-    margin: 0 0 10px
+    margin: 0 0 10px;
+    color: #f17f50;
 }
 
 .canderCounters .counter-section span.counter {
@@ -880,3 +1438,45 @@ footer .first_class h3 {
 }
 
 /* #funnu(funnuFooter) #css ends */
+
+/* Back to top */
+#button {
+    display: inline-block;
+    background-color: #f17f50;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s, 
+      opacity .5s, visibility .5s;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1000;
+  }
+  #button::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #353535;
+  }
+  #button:hover {
+    cursor: pointer;
+    background-color: #f17f50;
+  }
+  #button:active {
+    background-color: #f17f50;
+  }
+  #button.show {
+    opacity: 1;
+    visibility: visible;
+  }
+  
+  .bg-mybg {
+    background-color: #f17f50;
+  }
