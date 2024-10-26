@@ -1123,7 +1123,7 @@ body{
 
 /* #cjaime(cjaimeCTA) #css starts  */
 .cjaimeCTA  {
-    padding: 5rem
+    padding: 5rem 0rem 5rem 0rem;
 }
 
 .cjaimeCTA .btn {
@@ -1486,3 +1486,54 @@ footer .first_class h3 {
   .bg-mybg {
     background-color: var(--tertiary);
   }
+
+  /* Medium Screens (Tablets) */
+@media (max-width: 992px) {
+    .sagnuFeature h2 {
+        font-size: 36px;
+    }
+    .pungProductone h2 {
+        font-size: 28px;
+    }
+    .tikluTestimonial #testimonial-area .section-heading h2 {
+        font-size: 40px;
+        line-height: 50px;
+    }
+    h2 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Small Screens (Mobile) */
+@media (max-width: 768px) {
+    .sagnuFeature h2 {
+        font-size: 28px;
+    }
+    .pungProductone h2 {
+        font-size: 24px;
+    }
+    .tikluTestimonial #testimonial-area .section-heading h2 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+    h2 {
+        font-size: 1.6rem;
+    }
+}
+
+/* Extra Small Screens (Mobile Portrait) */
+@media (max-width: 576px) {
+    .sagnuFeature h2 {
+        font-size: 24px;
+    }
+    .pungProductone h2 {
+        font-size: 20px;
+    }
+    .tikluTestimonial #testimonial-area .section-heading h2 {
+        font-size: 28px;
+        line-height: 38px;
+    }
+    h2 {
+        font-size: 1.4rem;
+    }
+}
