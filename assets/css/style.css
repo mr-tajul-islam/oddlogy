@@ -86,7 +86,7 @@ body{
 
 /* #sagnu(sagnuFeature) #css starts  */
 .sagnuFeature{
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 .sagnuFeature .card-img-top {
     max-width: 100px;
@@ -127,7 +127,7 @@ body{
 
 /* #pung(pungProductone) #css starts  */
 .pungProductone{
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 .pungProductone h2{
     font-size: 35px;
@@ -269,7 +269,7 @@ body{
 
 /* #feresa(feresaFeature) #css starts */
 .feresaFeature {
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 
 .feresaFeature .fdb-block img.fdb-icon {
@@ -288,7 +288,7 @@ body{
 
 /* #pung(pungProducttwo) #css starts  */
 .pungProducttwo{
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 .pungProducttwo h2{
     font-size: 35px;
@@ -430,7 +430,7 @@ body{
 
 /* #pung(pungProductthree) #css starts  */
 .pungProductthree{
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 .pungProductthree h2{
     font-size: 35px;
@@ -572,7 +572,7 @@ body{
 
 /* #tiklu(tikluTestimonial) #css starts  */
 .tikluTestimonial{
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 .tikluTestimonial #testimonial-area .section-heading h2 {
     font-size: 48px;
@@ -1132,7 +1132,7 @@ body{
 
 /* #cander(canderCounters) #css starts  */
 .canderCounters{
-    padding: 5rem;
+    padding: 5rem 0rem 5rem 0rem;
 }
 .canderCounters .counter-section i {
     display: block;
