@@ -280,20 +280,56 @@
   </section>
   <!-- / hadoc header section main wrapper start from here -->
 
-  <!-- banru banner section main wrapper start from here -->
-  <section id="banruBanner" class="banru banruBanner banner" onclick="banruBannerDelete()" itemscope
-    itemtype="http://schema.org/Organization" itemprop="text">
-    <!-- banner content starts here -->
-    <div class="parallax">
-      <button id="banruBannerButton" class="float-right">
-        <span class="float-right" itemprop="text">
-          <i class="fas fa-x" itemprop="icon"> </i>
-        </span>
-      </button>
+<!-- carvo carousel section main wrapper start from here -->
+<section id="carvoCarousel" class="carvo carousel carvoCarousel" itemscope itemtype="http://schema.org/Organization" itemprop="text">
+
+  <!-- carousel starts here -->
+<div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    
+    <!-- carousel items starts here -->
+    <div class="carousel-inner">
+        
+        <!-- First carousel item, set as active to display by default -->
+        <div class="carousel-item active">
+            <img src="assets/img/i1.PNG" alt="an image" class="d-block w-100 carousel-image " itemprop="image">
+        </div>
+
+        <!-- Second carousel item -->
+        <div class="carousel-item">
+            <img src="assets/img/i1.PNG" alt="an image" class="d-block w-100 carousel-image " itemprop="image">
+        </div>
+
+        <!-- Third carousel item -->
+        <div class="carousel-item">
+            <img src="assets/img/i1.PNG" alt="an image" class="d-block w-100 carousel-image " itemprop="image">
+        </div>
+
     </div>
-    <!-- /banner content ends here -->
-  </section>
-  <!-- /banru banner section main wrapper ends here -->
+    <!-- /carousel items ends here -->
+
+    <!-- carousel control icons starts here -->
+    <a href="#carouselExampleFade" title="this is a demo" class="carousel-control-prev" role="button" data-slide="prev" itemprop="url">
+        <!-- Previous button icon for navigating back -->
+        <span class="carousel-control-prev-icon" aria-hidden="true" itemprop="icon"></span>
+        <!-- Screen reader only text for accessibility -->
+        <span class="sr-only" itemprop="text">
+            Previous        </span>
+    </a>
+
+    <a href="#carouselExampleFade" title="this is a demo" class="carousel-control-next" role="button" data-slide="next" itemprop="url">
+        <!-- Next button icon for navigating forward -->
+        <span class="carousel-control-next-icon" aria-hidden="true" itemprop="icon"></span>
+        <!-- Screen reader only text for accessibility -->
+        <span class="sr-only" itemprop="text">
+            Next        </span>
+    </a>
+    <!-- /carousel control icons ends here -->
+</div>
+<!-- /carousel ends here -->
+
+
+</section>
+<!-- /carvo carousel section main wrapper ends here -->
 
   <!-- sagnu service section main wrapper start from here -->
   <section id="sagnuFeature" class="sagnu sagnuFeature feature" itemscope itemtype="http://schema.org/Organization"
@@ -344,7 +380,7 @@
           <a href="">
             <div class="card cardbody text-center d-flex justify-content-center align-items-center">
 
-              <img src="assets/img/icons/exam-2.png" class="card-img-top mx-auto d-block" alt="an image"
+              <img src="assets/img/icons/10.png" class="card-img-top mx-auto d-block" alt="an image"
                 itemprop="image">
 
               <div class="card-body">
@@ -380,7 +416,7 @@
           <a href="">
             <div class="card cardbody text-center d-flex justify-content-center align-items-center">
 
-              <img src="assets/img/icons/exam-4.png" class="card-img-top mx-auto d-block" alt="an image"
+              <img src="assets/img/icons/8.png" class="card-img-top mx-auto d-block" alt="an image"
                 itemprop="image">
 
               <div class="card-body">
@@ -398,7 +434,7 @@
 
           <a href="">
             <div class="card cardbody text-center d-flex justify-content-center align-items-center">
-              <img src="assets/img/icons/exam-5.png" class="card-img-top mx-auto d-block" alt="an image"
+              <img src="assets/img/icons/7.png" class="card-img-top mx-auto d-block" alt="an image"
                 itemprop="image">
 
               <div class="card-body">
@@ -418,7 +454,7 @@
           <a href="">
             <div class="card cardbody text-center d-flex justify-content-center align-items-center">
 
-              <img src="assets/img/icons/exam-6.png" class="card-img-top mx-auto d-block" alt="an image"
+              <img src="assets/img/icons/6.png" class="card-img-top mx-auto d-block" alt="an image"
                 itemprop="image">
 
               <div class="card-body">
@@ -1308,6 +1344,8 @@
 
 
   <!-- scripts -->
+     <!-- jQuery -->
+     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script data-cfasync="false" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
   <script data-cfasync="false" src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
   <script data-cfasync="false"
@@ -1315,6 +1353,20 @@
   <script data-cfasync="false"
     src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
   <script data-cfasync="false" src="https://cdn.jsdelivr.net/npm/admin-lte@3.1/dist/js/adminlte.min.js"></script>
+<!-- Popper.js (Required for Bootstrap 4 components like tooltips and popovers) -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+<!-- Bootstrap 4 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
   <script data-cfasync="false" src="assets/js/index.js"></script>
 
 </body>

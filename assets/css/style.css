@@ -3,8 +3,7 @@ body{
     font-family: "Plus Jakarta Sans", sans-serif;
 }
 :root{
-    --primary: #E75F27;
-    --tertiary: #f17f50;
+    --primary: #D2DD27;
     --white: #fff;
 }
 
@@ -35,7 +34,7 @@ body{
 }
 
 .hadocHeader .navbar-light .navbar-nav .nav-link:hover {
-    color: var(--tertiary);
+    color: var(--primary);
 }
 
 .hadocHeader .navbar-light .navbar-toggler {
@@ -46,7 +45,7 @@ body{
 
 .hadocHeader .btn {
     background-color: var(--primary);
-    color: var(--white);
+    color: #353535;
     border: none;
     font-weight: bold;
     padding: 5px 20px 5px 20px;
@@ -60,35 +59,17 @@ body{
 
 /* #hadoc(hadocHeader) #css ends */
 
-/* #banru(banruBanner) #css starts  */
-.banruBanner .parallax {
-    background-image: url("../img/others/banner.jpg");
-    height: 200px;
-    width: 100%;
-    background-repeat: round;
-    background-size: cover;
+/* #carvo(carvoCarousel) #css starts  */
+.carvoCarousel .carousel-image {
+    max-height: 700px;
+    /* Adjust this height as needed */
+    object-fit: cover;
 }
 
-.banruBanner .fa-x {
-    font-size: 20px;
-    margin-right: 20px;
-    color: var(--white);
-    margin-top: 10px;
-}
+/* #carvo(carvoCarousel) #css ends  */
 
-.banruBanner button {
-    background: transparent;
-    border: none;
-}
 
-/* Media query for small screens (mobile devices) */
-@media (max-width: 768px) {
-    .banruBanner .parallax {
-        height: 100px;
-    }
-}
 
-/* #banru(banruBanner) #css ends  */
 
 /* #sagnu(sagnuFeature) #css starts  */
 .sagnuFeature{
@@ -1144,7 +1125,7 @@ body{
 .canderCounters .counter-section i {
     display: block;
     margin: 0 0 10px;
-    color: var(--tertiary);
+    color: var(--primary);
 }
 
 .canderCounters .counter-section span.counter {
@@ -1449,7 +1430,7 @@ footer .first_class h3 {
 /* Back to top */
 #button {
     display: inline-block;
-    background-color: var(--tertiary);
+    background-color: var(--primary);
     width: 50px;
     height: 50px;
     text-align: center;
@@ -1474,10 +1455,10 @@ footer .first_class h3 {
   }
   #button:hover {
     cursor: pointer;
-    background-color: var(--tertiary);
+    background-color: var(--primary);
   }
   #button:active {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
   }
   #button.show {
     opacity: 1;
@@ -1485,7 +1466,7 @@ footer .first_class h3 {
   }
   
   .bg-mybg {
-    background-color: var(--tertiary);
+    background-color: var(--primary);
   }
 
   /* Medium Screens (Tablets) */
